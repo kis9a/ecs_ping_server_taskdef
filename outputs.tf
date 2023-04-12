@@ -1,13 +1,13 @@
 output "family" {
-  value = aws_ecs_task_definition.mock.family
+  value = aws_ecs_task_definition.ping.family
 }
 
 output "revision" {
-  value = aws_ecs_task_definition.mock.revision
+  value = aws_ecs_task_definition.ping.revision
 }
 
 output "arn" {
-  value = aws_ecs_task_definition.mock.arn
+  value = aws_ecs_task_definition.ping.arn
 }
 
 output "container_definitions_json" {

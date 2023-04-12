@@ -23,7 +23,7 @@ locals {
   ])
 }
 
-resource "aws_ecs_task_definition" "mock" {
+resource "aws_ecs_task_definition" "ping" {
   network_mode             = "awsvpc"
   requires_compatibilities = ["FARGATE"]
   family                   = var.family_name
